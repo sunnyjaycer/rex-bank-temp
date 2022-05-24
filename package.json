@@ -1,0 +1,68 @@
+{
+  "name": "rex-bank",
+  "version": "1.0.0",
+  "description": "This is Ricochet project for managing fixed-rate collateral-backed lending on Ethereum. This repository contains the core smart contracts and the tests written in *Typescript* using the framework *hardhat* and the *ethers* library. A role-based access is now used in the Rex Bank. The modifiers in the *reserveDeposit* and *reserveWithdrawCollateral* functions have been commented, because the old tests were written when the access was simple (admin and users).",
+  "main": ".solcover.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@swc/core": "^1.2.120",
+    "@swc/helpers": "^0.3.2",
+    "@typechain/ethers-v5": "^7.2.0",
+    "@typechain/hardhat": "^2.3.1",
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^16.11.33",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-promise": "^5.2.0",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3",
+    "hardhat-gas-reporter": "^1.0.8",
+    "prettier": "^2.5.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.13",
+    "regenerator-runtime": "^0.13.9",
+    "solhint": "^3.3.6",
+    "solidity-coverage": "^0.7.21",
+    "ts-node": "^10.7.0",
+    "typechain": "^5.2.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.4.0",
+    "@superfluid-finance/ethereum-contracts": "^1.2.1",
+    "@superfluid-finance/sdk-core": "^0.3.2",
+    "graphql": "^16.4.0",
+    "hardhat-contract-sizer": "^2.5.1",
+    "usingtellor": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyjaycer/rex-bank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnyjaycer/rex-bank/issues"
+  },
+  "homepage": "https://github.com/sunnyjaycer/rex-bank#readme"
+}
